@@ -1,6 +1,6 @@
 {
     "name": "Google Meet",
-    "version": '17.0.0.0.2',
+    "version": '18.0.0.0.2',
     "summary": "Integrates Google Meet Video Conferencing with Odoo Calendar Events",
     "description": """ 
         This module integrates Google Meet Video Conferencing with Odoo Calendar Events.
