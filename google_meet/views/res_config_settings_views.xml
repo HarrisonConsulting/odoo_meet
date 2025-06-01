@@ -6,7 +6,7 @@
             <field name="model">res.config.settings</field>
             <field name="inherit_id" ref="base_setup.res_config_settings_view_form"/>
             <field name="arch" type="xml">
-                <xpath expr="//div[@id='sync_google_calendar_setting']" position="after">
+                <xpath expr="//setting[@id='sync_google_calendar_setting']" position="inside">
                     <div class="col-12 col-lg-6 o_setting_box" id="google_meet_setting" modifiers="{&quot;invisible&quot;: [[&quot;module_google_calendar&quot;, &quot;=&quot;, false]]}">
                         <div class="o_setting_left_pane">
                             <field name="enable_google_meet" on_change="1"/>
