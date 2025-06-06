@@ -7,7 +7,7 @@
         It includes the necessary files and configurations to enable Google Meet for appointments when the location is left empty.
     """,
     "category": "Website",
-    "author": "Harrison Consulting",
+    "author": "Harrison Consulting, LLC",
     "website": "https://www.harrison.consulting",
     'license': 'GPL-3',
     "depends": ["calendar", "google_calendar"],
